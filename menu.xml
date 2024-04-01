@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <menuitem id="menu_hospital_root"
+              name="Hospital"
+              web_icon="utm,static/description/icon.png"
+              sequence="0"/>
+
+    <menuitem id="menu_patient_master"
+              name="Patient Details"
+              parent="menu_hospital_root"
+              sequence="0"/>
+
+    <menuitem id="menu_appointment_master"
+              name="Appointments"
+              parent="menu_hospital_root"
+              sequence="20"/>
+
+    <menuitem id="menu_configuration_master"
+              name="Configurations"
+              parent="menu_hospital_root"
+              sequence="100"/>
+
+    <menuitem id="menu_playground_master"
+              name="Play Ground"
+              parent="menu_hospital_root"
+              sequence="150"/>
+</odoo>
